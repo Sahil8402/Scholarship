@@ -1,0 +1,126 @@
+<html>
+ <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Project</title>
+ </head>
+ <style>
+ body
+	  {
+	    background-color:#b0e0e6;
+	  }
+	   img.avatar {
+        width: 4%;
+        border-radius:50%;
+    }
+    table, th, td {
+  
+  border: 1px solid black;	
+  border-collapse: collapse;
+} 
+	  </style>
+  <body>
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <a href="index.html"class="ml-3 text-xl">Different Scholarships</a>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="a10.html">School Students</a>
+      <a class="mr-5 hover:text-gray-900" href="d10.html">College Students</a>
+      <a class="mr-5 hover:text-gray-900" href="more.html">More Detalis</a>
+     
+   </div>
+    </nav><center>
+     <div class="imgcontainer">
+            <img src=
+"log.png" 
+                 alt="Avatar" class="avatar">
+                 <h2><b>SG Scholarships</b></h2>
+        </div> 
+        </center>
+        <br>
+        <br>
+
+<form oninput="Percentage.value=(parseFloat(MO.value)*100)/(parseFloat(T.value))">
+    <table align="center">
+        <tr>
+            <th>
+                Total Marks Obtained:
+            </th>
+            <th>
+                <input type="number" id="MO">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Enter Total:
+            </th>
+            <th>
+            <input type="number" id="T">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <b>
+                    Percentage Obtained:
+                </b>
+            </th>
+            <th>
+                <output name="Percentage" name="CGPA">
+                </output>
+                %
+            </th>
+        </tr>
+        </table>
+        <br>
+    <center>
+     <table border ="1" width="600" height="400" bordercolor="blue" bgcolor="#4CB5F5">
+  <tr>
+   <th>
+   Percentage critera
+   </th>
+   <th>
+   Scholarship avilable
+   </th>
+  </tr>
+  <tr>
+  <td>
+  80% and above
+  </td>
+  <td>
+  MYSY,JBNSTS Junior Scholarschip ,PDEU
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Between 60% and 80%
+  </td>
+  <td>
+  Collgate scholarship,HDFC,MI scholarship,Kotak Shiksha Nidhi
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Between 50% and 60%
+  </td>
+  <td>
+   HDFC,Digital Gujarat(SEBC/SC/ST Students),Kotak Kanya scholarship(only for girls)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  below 50%
+  </td>
+  <td>
+  HDFC,Digital Gujarat 
+  </td>
+  </tr>
+ </table>
+ </center>
+</body>
+</html>
